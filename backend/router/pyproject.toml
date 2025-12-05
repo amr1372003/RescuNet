@@ -1,0 +1,4 @@
+[build-system]
+# These packages are installed in the temporary build environment
+requires = ["setuptools", "wheel", "pybind11"]
+build-backend = "setuptools.build_meta"
